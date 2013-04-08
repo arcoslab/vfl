@@ -4,7 +4,7 @@ from distutils.core import setup
 
 
 setup(name='vfl',
-      version='1.0',
+      version='0.1',
       description='Vector Field Library',
       author='Federico Ruiz Ugalde',
       author_email='memeruiz@gmail.com',

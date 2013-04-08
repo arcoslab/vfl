@@ -1,6 +1,9 @@
 NAME=vfl
 PREFIX ?= ${HOME}/local/DIR/${NAME}
-DEB_TARGET=python-vfl_1.0-1_all.deb
+DEB_TARGET=python-vfl_0.1-1_all.deb
+
+all:
+	echo "Does nothing, try make install"
 
 install:
 	python setup.py install --prefix=${PREFIX}
