@@ -159,7 +159,7 @@ class pointAttractor:
         self.frame.M[i,j]=r[i,j]
     self.tw=kdl.diff(self.frame,self.gframe)
 
-    return concatenate((P,array([self.tw.rot[0],self.tw.rot[1],self.tw.rot[2]])),1)
+    return concatenate((P,array([self.tw.rot[0],self.tw.rot[1],self.tw.rot[2]])),0)
 
 class decayAttractor:
   def __init__(self):
