@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 from vectorFieldClass import VectorField, ScalarField
 
-def main():
-    pass
+__version__ = '0.1.0'
 
-if __name__=="__main__":
-    main()
+__all__ = [
+    'VectorField', 'ScalarField'
+    ]
