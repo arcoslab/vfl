@@ -26,7 +26,7 @@ from numpy import concatenate
 import PyKDL as kdl
 import time
 from vectorFieldClass import VectorField
-from vectorFileds import decayRepeller1, vectorF_Angle, simpleAttractor1
+from vectorFields import decayRepeller1, vectorF_Angle, simpleAttractor1
 
 printcounter = 0
 epsilon = 0.0000001
